@@ -1,15 +1,15 @@
-#1 Monitoring, Alerting 2 Slack
-EDIT NOTIFICATION CHANNELS
-Slack > ADD NEW > ALLOW
-Slack Channel Name > Cloud Alerting Display Name > SEND TEST NOTIFICATION
-If a private channel is specified, Invite Google Cloud Monitoring to the channel
-Save
-Up to Alerting overview page
-CREATE POLICY > SELECT A METRIC
-Cloud Dataproc Cluster > N metrics > Cluster > N metrics > Failed jobs > Apply
-ADD FILTER > error_type = DATAPROC_SERVER_ERROR > DONE
-Rolling window function, delta > NEXT
-Threshold value, 0 > NEXT
-Notification Channels > Slack, the channel name > OK
-Alert policy name > NEXT
-CREATE POLICY
+#### Monitoring, Alerting 2 Slack
+- EDIT NOTIFICATION CHANNELS
+- Slack > ADD NEW > ALLOW
+- Slack Channel Name > Cloud Alerting Display Name > SEND TEST NOTIFICATION
+-- If a private channel is specified, Invite Google Cloud Monitoring to the channel
+- Save
+- Up to Alerting overview page
+- CREATE POLICY > SELECT A METRIC
+- Cloud Dataproc Cluster > N metrics > Cluster > N metrics > Failed jobs > Apply
+- ADD FILTER > error_type = DATAPROC_SERVER_ERROR > DONE
+- Rolling window function, delta > NEXT
+- Threshold value, 0 > NEXT
+- Notification Channels > Slack, the channel name > OK
+- Alert policy name > NEXT
+- CREATE POLICY
