@@ -2,7 +2,7 @@
 - EDIT NOTIFICATION CHANNELS
 - Slack > ADD NEW > ALLOW
 - Slack Channel Name > Cloud Alerting Display Name > SEND TEST NOTIFICATION
--- If a private channel is specified, Invite Google Cloud Monitoring to the channel
+  - If a private channel is specified, Invite Google Cloud Monitoring to the channel
 - Save
 - Up to Alerting overview page
 - CREATE POLICY > SELECT A METRIC
